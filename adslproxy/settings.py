@@ -18,7 +18,7 @@ CLIENT_NAME = env.str('CLIENT_NAME', 'adsl1')
 # Redis数据库IP
 REDIS_HOST = env.str('REDIS_HOST', 'localhost')
 # Redis数据库密码, 如无则填None
-REDIS_PASSWORD = env.str('REDIS_PASSWORD', 'foobared')
+REDIS_PASSWORD = env.str('REDIS_PASSWORD', None)
 # Redis数据库端口
 REDIS_PORT = env.int('REDIS_PORT', 6379)
 # 代理池键名
